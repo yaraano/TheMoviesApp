@@ -1,0 +1,19 @@
+
+.search-result {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+}
+
+.search-result img {
+    width: 40px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.search-result p {
+    margin: 0;
+}
