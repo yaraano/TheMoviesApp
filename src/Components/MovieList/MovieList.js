@@ -1,15 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { PAGE_URL } from "../Config/Config";
-import './MovieList.css';
+import img from "./Assets/img.jpg"
+import "./MovieList.css";
 
 const MovieList = ({ movies }) => {
     return (
         <div className="row">
-            {movies.map(movie => (
+            {movies.map((movie) => (
                 <div className="col-3" key={movie.id}>
                     <Link to={`/movies/${movie.id}`}>
-                        <img className="move-img" src={`${PAGE_URL}${movie.poster_path}`} alt="" />
+                        <img
+                            className="movie-img"
+                            src={movie.poster_path ? `${PAGE_URL}${movie.poster_path}` : img}
+                            alt=""
+                        />
                     </Link>
                     <div className="movie-box">
                         <Link className="box-title" to={`/movies/${movie.id}`}>

@@ -1,0 +1,17 @@
+.header-box {
+    height: 150px;
+    z-index: 100;
+    display: flex;
+    font-size: 18px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.header-box img {
+    width: 100px;
+}
+
+h3 {
+    color: #fff;
+}

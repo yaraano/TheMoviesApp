@@ -3,6 +3,8 @@
     width: 100%;
     border-radius: 5px;
     transition: transform 0.3s ease-in-out;
+    height: 460px;
+    object-fit: cover;
 }
 
 .move-img:hover {
@@ -10,9 +12,8 @@
 }
 
 .movie-box {
-    margin-top: 10px;
+    margin-bottom: 20px;
     text-align: center;
-    background-color: #f8f8f8;
     padding: 10px;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -20,7 +21,7 @@
 
 .box-title {
     text-decoration: none;
-    color: #333;
+    color: #FFFFFF;
 }
 
 .box-title:hover {
